@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(220, 220, 220);
+  font-size: 16px;
+}
+
+header, footer {
+  color: white;
+  background-color: gray;
+  text-align: center;
+}
+
+header {
+  font-size: 32px;
+  padding: 8px 0;
+}
+
+footer {
+  padding: 4px 0;
+}
+
+#chat_container, form, hr{
+  width: 76%;
+}
+
+#chat_container {
+  margin: 60px auto;
+}
+
+.wrapper {
+  padding: 12px 16px;
+  border-radius: 16px;
+  margin: 20px 20px 20px 140px;
+  background-color: white;
+}
+
+.ai {
+  background-color: rgb(185, 253, 185);
+  margin-left: 20px;
+  margin-right: 140px;
+}
+
+.chat_back {
+  background-color: white;
+}
+
+.chat {
+  background-color: rgb(185, 253, 185);
+}
+
+form {
+  margin: 24px 12%;
+}
+
+textarea {
+  background-color: white;
+  margin: 8px 0;
+  padding: 4px;
+  width: 100%;
+  line-height: 1.2rem;
+  border-radius: 4px;
+}
+
+button {
+  display: block;
+  margin: 0 0 0 auto;
+  padding: 8px 16px;
+  color: white;
+  background-color: rgb(0, 160, 0);
+  border: none;
+  border-radius: 40%;
+}
